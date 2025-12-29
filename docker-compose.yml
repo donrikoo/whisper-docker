@@ -1,0 +1,15 @@
+services:
+  whisper:
+    build: .
+    container_name: whisper-ml
+    volumes:
+      - whisper-models:/root/.cache/whisper
+      - ./work:/app/work
+    environment:
+      - PYTHONUNBUFFERED=1
+    stdin_open: true
+    tty: true
+
+volumes:
+  whisper-models:
+    driver: local

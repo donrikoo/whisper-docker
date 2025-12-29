@@ -1,0 +1,39 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.Python
+venv
+env
+build
+dist
+
+# Документация
+README.md
+.env.example
+
+# Большие файлы (не нужны в контейнере)
+*.ogg
+*.mp3
+*.wav
+*.m4a
+work/
+scripts/
+
+# OS
+.DS_Store
+Thumbs.db

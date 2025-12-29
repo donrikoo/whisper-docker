@@ -1,0 +1,5 @@
+openai-whisper==20240930
+torch==2.1.2
+torchaudio==2.1.2
+faster-whisper==1.1.1
+numpy<2
